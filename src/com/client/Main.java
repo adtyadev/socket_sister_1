@@ -3,8 +3,14 @@ package com.client;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		GetDataAddition get = new GetDataAddition("localhost", 3000);
+		get.init();
 
 	}
 
 }
+
+/*Aditya Kharisma Wicaksana
+Informatika 16
+Universitas Sebelas Maret*/

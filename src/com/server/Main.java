@@ -10,3 +10,7 @@ public class Main {
 	}
 	
 }
+
+/*Aditya Kharisma Wicaksana
+Informatika 16
+Universitas Sebelas Maret*/
