@@ -3,8 +3,10 @@ package com.server;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		AdditionOperation con = new AdditionOperation(3000);
+		con.init();
 
 	}
-
+	
 }
