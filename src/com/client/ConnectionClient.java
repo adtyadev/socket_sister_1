@@ -8,14 +8,14 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 
 public class ConnectionClient {
-	public int port;
-	public String hostName;
-	public Socket client = null;
-	public BufferedReader inputStream = null;
-	public DataOutputStream outputStream = null;
-	public BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
-	public String user_input = null;
-	public String output = null;
+	 int port;
+	 String hostName;
+	 Socket client = null;
+	 BufferedReader inputStream = null;
+	 DataOutputStream outputStream = null;
+	 BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+	 String user_input = null;
+	 String output = null;
 
 	ConnectionClient(String hostName, int port) {
 		this.hostName = hostName;

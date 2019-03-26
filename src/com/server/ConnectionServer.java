@@ -8,12 +8,12 @@ import java.net.*;
 
 public class ConnectionServer {
 
-	public int port;
-	public ServerSocket checkServer = null;
-	public String line;
-	public BufferedReader inputStream = null;
-	public DataOutputStream outputStream = null;
-	public Socket clientSocket = null;
+	int port;
+	ServerSocket checkServer = null;
+	String line;
+	BufferedReader inputStream = null;
+	DataOutputStream outputStream = null;
+	Socket clientSocket = null;
 
 	ConnectionServer(int port) {
 		this.port = port;
